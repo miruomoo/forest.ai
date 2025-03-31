@@ -1,2 +1,8 @@
-# forest
- AI-powered investment assistant
+# Forest: AI-Powered Investment Assistant
+
+## Server (Node.js + TypeScript)
+
+### Commands:
+
+```sh
+npm run dev
