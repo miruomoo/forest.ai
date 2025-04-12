@@ -6,6 +6,7 @@
 
 ```sh
 npm run dev
+```
 
 ## Server (Node.js + TypeScript)
 
@@ -13,3 +14,4 @@ npm run dev
 
 ```sh
 npm run dev
+```
