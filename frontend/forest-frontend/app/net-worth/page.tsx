@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { TimeFrameSelector } from "../../components/time-frame-selector"
 import { PortfolioLineChart } from "../../components/portfolio-line-chart"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function NetWorthPage() {
   const [timeFrame, setTimeFrame] = useState("1Y")
@@ -22,6 +23,9 @@ export default function NetWorthPage() {
           </Button>
         </Link>
         <h1 className="text-lg font-semibold">Net Worth Tracker</h1>
+        <div className="ml-auto">
+          <ThemeToggle />
+        </div>
       </header>
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
         <div className="grid gap-4">
