@@ -3,14 +3,14 @@ import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { PortfolioManager } from "../../components/portfolio-manager"
+import { PortfolioManager } from "../../../components/portfolio-manager"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function PortfolioPage() {
   return (
     <div className="flex min-h-screen w-full flex-col">
       <header className="sticky top-0 z-10 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
-        <Link href="/">
+        <Link href="/dashboard">
           <Button variant="ghost" size="icon" className="mr-2">
             <ArrowLeft className="h-4 w-4" />
             <span className="sr-only">Back</span>
