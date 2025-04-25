@@ -14,7 +14,7 @@ export function HeroSection() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                    Take Control of Your Financial Future
+                    Your Personal Financial Advisor
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
                     Track your investments, monitor your net worth, and make informed financial decisions with our

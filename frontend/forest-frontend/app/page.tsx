@@ -40,6 +40,7 @@ export default function LandingPage() {
         </div>
       </header>
       <main className="flex-1">
+        
         <HeroSection />
         <FeaturesSection />
 
