@@ -16,8 +16,8 @@
     "typescript": "^5.8.2"
   },
   "scripts": {
-    "start": "node index.js",
-    "dev": "ts-node index.ts",
+    "start": "node app.js",
+    "dev": "ts-node app.ts",
     "build": "tsc"
   }
 }
