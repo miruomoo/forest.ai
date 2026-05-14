@@ -43,6 +43,7 @@
     "typescript": "^5"
   },
   "overrides": {
+    "postcss": "^8.5.14",
     "tar": "^7.5.13",
     "minimatch": "^10.2.5",
     "flatted": "^3.4.2",
